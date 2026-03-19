@@ -10,9 +10,7 @@
 
 I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work.
 
-118 repos (101 public, 17 private). One-person operation. Everything from Mars colony simulators on Ethereum to reverse-engineered Grok clients to a 3D brain that visualizes my entire chaotic life as floating orbs.
-
-I don't write frameworks. I ship weird, functional things.
+118 repos (101 public, 17 private). Various LLMs tie in to help, but Flask/Python mostly. Everything from Mars colony simulators on Ethereum to reverse-engineered Grok clients to a 3D brain that visualizes ideas as floating orbs.
 
 <br/>
 

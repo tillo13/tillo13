@@ -16,10 +16,12 @@ I don't write frameworks. I ship weird, functional things.
 
 <br/>
 
-**Currently building:**
-- 🧠 **[Scatterbrain](https://scatterbrain-io.uc.r.appspot.com)** — 3D brain visualization of thoughts, emails, calendar, projects
-- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony management game on Ethereum Sepolia testnet
-- 📰 **[Refinr](https://sortedfor.me)** — Reddit aggregator that surfaces signal from noise
+**Things I'm most proud of:**
+- 🧠 **[Scatterbrain](https://scatterbrain-io.uc.r.appspot.com)** — 3D brain that visualizes my entire chaotic life as floating orbs
+- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with real Ethereum blockchain + AI-generated commanders
+- 🎬 **[AI Storyboard Video Generator](https://github.com/tillo13/ai_storyboard_video_generator)** — story → visuals → voiceover → video, fully automated
+- 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 AI personas testing if gamified kindness reduces online toxicity
+- 🖼️ **[Kumori CLI Engine](https://github.com/tillo13/kumori_cli_engine)** — identity-preserving AI portraits via InstantID + HuggingFace
 
 </td>
 <td width="40%" valign="top">

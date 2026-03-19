@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1e24&height=220&section=header&text=Andy%20Tillo&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=builder%20of%20things%20that%20make%20me%20curious&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+<a href="https://github.com/tillo13">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:0a3069,60:1a6dd4,100:58a6ff&height=250&section=header&text=Andy%20Tillo&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=builder%20of%20things%20that%20make%20me%20curious&descSize=20&descColor=8b949e&descAlignY=58&animation=fadeIn&stroke=58a6ff&strokeWidth=1" width="100%"/>
+</a>
 
 <table>
 <tr>
@@ -22,13 +24,17 @@ I don't write frameworks. I ship weird, functional things.
 </td>
 <td width="40%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tillo13&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=false" width="100%"/>
+<a href="https://github.com/tillo13">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tillo13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="100%"/>
+</a>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tillo13&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" width="100%"/>
 
 </td>
 </tr>
 </table>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tillo13&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1a6dd4" width="100%"/>
 
 ---
 
@@ -141,11 +147,11 @@ Blockchain | Ethereum Sepolia (web3.py)
 <img src="https://img.shields.io/badge/LinkedIn-andytillo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/tillo13?tab=repositories">
-<img src="https://img.shields.io/badge/Repos-100-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Repos-100+-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 </a>
 <a href="https://pilgri.ms">
 <img src="https://img.shields.io/badge/pilgri.ms-play-d73a49?style=for-the-badge&logo=rocket&logoColor=white" />
 </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1e24&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a3069,60:1a6dd4,100:58a6ff&height=100&section=footer" width="100%"/>

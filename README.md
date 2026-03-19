@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1e24&height=220&section=header&text=Andy%20Tillo&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=builder%20of%20things%20that%20probably%20shouldn't%20exist&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1e24&height=220&section=header&text=Andy%20Tillo&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=builder%20of%20things%20that%20make%20me%20curious&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <table>
 <tr>

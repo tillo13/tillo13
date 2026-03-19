@@ -16,12 +16,12 @@ I don't write frameworks. I ship weird, functional things.
 
 <br/>
 
-**Things I'm most proud of:**
-- 🧠 **[Scatterbrain](https://scatterbrain-io.uc.r.appspot.com)** — 3D brain that visualizes my entire chaotic life as floating orbs
-- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with real Ethereum blockchain + AI-generated commanders
-- 🎬 **[AI Storyboard Video Generator](https://github.com/tillo13/ai_storyboard_video_generator)** — story → visuals → voiceover → video, fully automated
-- 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 AI personas testing if gamified kindness reduces online toxicity
-- 🖼️ **[Kumori CLI Engine](https://github.com/tillo13/kumori_cli_engine)** — identity-preserving AI portraits via InstantID + HuggingFace
+**Things I'm digging recently:**
+- 🧩 **[MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle)** — 26-day agentic AI system chasing a real $1M prize — scrapers, vision analysis, Slack bot, autonomous evidence gathering
+- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with ARIA, a Claude-powered AI agent that learns each player's colony and evolves over time
+- 🧠 **[Scatterbrain](https://scatterbrain-io.uc.r.appspot.com)** — 3D brain visualization with agent-driven email triage, calendar sync, and auto-fix pipelines
+- 🎬 **[ROG Video Pipeline](https://github.com/tillo13/rog_video_pipeline)** — Claude Agent Skills architecture — AI writes, sings, edits, and uploads videos autonomously
+- 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 autonomous AI personas simulating social media — 55% toxicity reduction over 69 hours
 
 </td>
 <td width="40%" valign="top">

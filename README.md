@@ -15,15 +15,23 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 <br/>
 
 **Things I'm digging recently:**
-- 🧩 **[MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle)** — 26-day agentic AI system chasing a real $1M prize — scrapers, vision analysis, Slack bot, autonomous evidence gathering
-- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with ARIA, a Claude-powered AI agent that learns each player's colony and evolves over time — [source](https://github.com/tillo13/pilgri.ms_public)
-- 🧠 **Scatterbrain** — 3D brain visualization with agent-driven email triage, calendar sync, and auto-fix pipelines `private`
-- 🎬 **ROG Video Pipeline** — Claude Agent Skills architecture — AI writes, sings, edits, and uploads videos autonomously `private`
-- 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 autonomous AI personas simulating social media — 55% toxicity reduction over 69 hours
+- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with ARIA, a Claude-powered AI agent that learns each player's colony and evolves over time. Blockchain integration on Ethereum Sepolia. Previous iteration: [pilgrim.games](https://pilgrim.games) — [source](https://github.com/tillo13/pilgri.ms_public)
+- 🧠 **[Kumori](https://kumori.ai)** — Personal AI assistant you actually own. Runs on your API keys, Claude-powered, deployed to GCP. The infrastructure layer behind most of my apps.
+- 🗺️ **[Crab Travel](https://crab.travel)** — AI-powered travel planning. Claude builds itineraries, scores destinations, handles the entire trip research pipeline autonomously.
+- 🤝 **[Dandy Ventures](https://dandy.ventures)** — Collaborative chat where multiple users talk with Claude together in real-time, plus an AI-guided startup intake system for vetting ideas.
+- 🏋️ **[Wattson](https://wattson.ac)** — B2B SaaS gym equipment monitoring via Shelly smart plugs. Full startup pitch, pricing model, and exit strategy. Built the entire business case with AI.
+- 🎬 **[Digital Empire TV](https://digitalempiretv.com)** — YouTube gaming network dashboard. AI-driven content analysis and channel performance tracking on GCP.
+- 🔗 **[Briskr](https://bris.kr)** — Privacy-first URL shortener. No tracking, no ads, no BS. Just short links that respect your users.
+- 📰 **[Refinr](https://sortedfor.me)** — Reddit aggregator that surfaces signal from noise. AI ranks and clusters discussions so you don't have to scroll.
+- ✅ **[Trustable](https://trustable.cc)** — Professional trust layer. Get rated by peers, rank your network — built as the QA backbone for testing across my other projects.
+- 🎭 **[Meish](https://meish.cc)** — AI writing style cloning. Feed it your samples, it learns your voice, then generates articles that sound like you wrote them.
+- 🔍 **[Inroads](https://inroads.me)** — Network-first job search. 70-85% of jobs are filled through referrals — Inroads scrapes 597+ career pages and matches them against your LinkedIn connections.
+- 🧩 **[MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle)** — 26-day agentic AI system chasing a real $1M prize. Scrapers, vision analysis, Slack bot, autonomous evidence gathering. The full retrospective.
+- 💡 **[Scatterbrain](https://github.com/tillo13/scatterbrain)** — 3D visualization of your scattered brain. Every project, email, meeting, and task rendered as glowing orbs floating in space. Agent-driven email triage, calendar sync, and auto-fix pipelines.
+- 🎬 **[ROG Video Pipeline](https://github.com/tillo13/ai-video-pipeline)** — Claude Agent Skills architecture. AI writes scripts, generates images, sings, edits, and uploads videos autonomously. End-to-end content creation with zero human intervention.
 - 🖥️ **ROG Gateway** — 65+ API endpoints serving LLMs, TTS, music gen, Whisper, and image/video models from a local RTX 5060 Ti `private`
-- 📰 **Refinr** — Reddit aggregator that surfaces signal from noise — live at [sortedfor.me](https://sortedfor.me) `private`
-- 🐕 **[Pet Adoption AI](https://github.com/tillo13/pet-adoption-ai)** — generates stylized art for shelter animals using LoRA-trained models
-- 🏋️ **Wattson** — B2B gym equipment monitoring via smart plugs — full startup pitch, pricing model, exit strategy `private`
+- 🐕 **[Pet Adoption AI](https://github.com/tillo13/pet-adoption-ai)** — AI-generated promotional art for shelter pets. Trains a custom LoRA model on each animal's photos, then generates stylized artwork to help them get adopted.
+- 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 autonomous AI personas simulating social media. Gamified kindness with dopamine rewards — achieved 55% toxicity reduction over 69 simulated hours.
 
 </td>
 <td width="40%" valign="top">

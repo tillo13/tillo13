@@ -16,7 +16,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 
 **Things I'm digging recently:**
 - 🧩 **[MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle)** — 26-day agentic AI system chasing a real $1M prize — scrapers, vision analysis, Slack bot, autonomous evidence gathering
-- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with ARIA, a Claude-powered AI agent that learns each player's colony and evolves over time `private`
+- 🔴 **[Pilgrims](https://pilgri.ms)** — Mars colony game with ARIA, a Claude-powered AI agent that learns each player's colony and evolves over time — [source](https://github.com/tillo13/pilgri.ms_public)
 - 🧠 **Scatterbrain** — 3D brain visualization with agent-driven email triage, calendar sync, and auto-fix pipelines `private`
 - 🎬 **ROG Video Pipeline** — Claude Agent Skills architecture — AI writes, sings, edits, and uploads videos autonomously `private`
 - 🎭 **[Kindness Social](https://github.com/tillo13/kindness_social)** — 20 autonomous AI personas simulating social media — 55% toxicity reduction over 69 hours

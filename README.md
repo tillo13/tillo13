@@ -86,7 +86,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 [![scatterbrain](https://img.shields.io/badge/-scatterbrain-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/scatterbrain) `[private]`
 <br/>3D brain — your chaos, made visible (Three.js + Flask)
 
-[![pilgri.ms](https://img.shields.io/badge/-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms) `[private]`
+[![pilgri.ms](https://img.shields.io/badge/-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms_public)
 <br/>Mars colony game with real blockchain + AI commanders
 
 [![refinr](https://img.shields.io/badge/-refinr-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/refinr) `[private]`

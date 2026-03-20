@@ -74,7 +74,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 [![kindness_social](https://img.shields.io/badge/-kindness__social-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/kindness_social)
 <br/>20 AI personas testing if gamified kindness reduces toxicity
 
-[![dr_nick](https://img.shields.io/badge/-dr__nick-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/dr_nick)
+[![dr_nick](https://img.shields.io/badge/-dr__nick-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/dr_nick) `[private]`
 <br/>Privacy-first reverse-engineered Grok client
 
 </td>
@@ -83,16 +83,16 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 <td width="50%" valign="top">
 
 #### 🌍 Web Apps & Products
-[![scatterbrain](https://img.shields.io/badge/-scatterbrain-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/scatterbrain)
+[![scatterbrain](https://img.shields.io/badge/-scatterbrain-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/scatterbrain) `[private]`
 <br/>3D brain — your chaos, made visible (Three.js + Flask)
 
-[![pilgri.ms](https://img.shields.io/badge/-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms)
+[![pilgri.ms](https://img.shields.io/badge/-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms) `[private]`
 <br/>Mars colony game with real blockchain + AI commanders
 
-[![refinr](https://img.shields.io/badge/-refinr-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/refinr)
+[![refinr](https://img.shields.io/badge/-refinr-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/refinr) `[private]`
 <br/>Reddit signal extraction — sortedfor.me
 
-[![wattson](https://img.shields.io/badge/-wattson-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/wattson)
+[![wattson](https://img.shields.io/badge/-wattson-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/wattson) `[private]`
 <br/>B2B gym equipment monitoring via smart plugs
 
 </td>
@@ -105,7 +105,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 [![flux_local_inference_via_ostris](https://img.shields.io/badge/-flux__local__inference-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/flux_local_inference_via_ostris)
 <br/>LoRA training toolkit for systems with limited VRAM
 
-[![rog_gateway](https://img.shields.io/badge/-rog__gateway-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/rog_gateway)
+[![rog_gateway](https://img.shields.io/badge/-rog__gateway-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/rog_gateway) `[private]`
 <br/>Unified GPU API gateway for local RTX inference
 
 [![adventure-dnd](https://img.shields.io/badge/-adventure--dnd-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/adventure-dnd)

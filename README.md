@@ -36,9 +36,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 </td>
 <td width="40%" valign="top">
 
-<a href="https://github.com/tillo13">
-<img src="https://streak-stats.demolab.com/?user=tillo13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="100%"/>
-</a>
+<img src="stats.svg" width="100%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tillo13&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" width="100%"/>
 

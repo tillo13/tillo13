@@ -91,16 +91,17 @@ def main():
     readme_path = Path(__file__).parent / "README.md"
     content = readme_path.read_text()
 
+    # URL-encode commas for shields.io
+    total_str = f"{total_commits:,}".replace(",", "%2C")
+    year_str = f"{year_commits:,}".replace(",", "%2C")
+
     stats_block = f"""<!-- DEPLOY_STATS_START -->
-### deploy stats
-
-| | |
-|:--|--:|
-| **total commits** | **{total_commits:,}** |
-| **last 12 months** | **{year_commits:,}** |
-| **repos** | **{total_repos}** ({public_repos} public · {private_repos} private) |
-
-<sub>all repos (public + private) · auto-updated on each deploy</sub>
+<p align="center">
+<img src="https://img.shields.io/badge/commits-{total_str}-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-{year_str}-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/repos-{total_repos}-58a6ff?style=for-the-badge&labelColor=0d1117" />
+</p>
+<p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
 <!-- DEPLOY_STATS_END -->"""
 
     new_content = re.sub(

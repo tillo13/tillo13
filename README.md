@@ -13,13 +13,11 @@
 
 ---
 
-I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work. 125 repos (103 public, 22 private). Everything from Mars colony simulators on Ethereum to a 3D brain that visualizes ideas as floating orbs.
+I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work. 125 repos (103 public, 22 private). 
 
 ```
-python + flask + vanilla js + postgresql + gcp app engine
+python + flask + js + postgresql + gcp app engine
 ```
-
-No React. No Next.js. No Kubernetes. Just Python, raw SQL, and `deploy "it works"`.
 
 ---
 

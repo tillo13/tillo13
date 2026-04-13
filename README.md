@@ -10,7 +10,7 @@
 
 I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work.
 
-118 repos (101 public, 17 private). Various LLMs tie in to help, but Flask/Python mostly. Everything from Mars colony simulators on Ethereum to reverse-engineered Grok clients to a 3D brain that visualizes ideas as floating orbs.
+125 repos (103 public, 22 private). Various LLMs tie in to help, but Flask/Python mostly. Everything from Mars colony simulators on Ethereum to reverse-engineered Grok clients to a 3D brain that visualizes ideas as floating orbs.
 
 <br/>
 
@@ -37,7 +37,7 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 <td width="40%" valign="top">
 
 <a href="https://github.com/tillo13">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tillo13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=tillo13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="100%"/>
 </a>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tillo13&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" width="100%"/>
@@ -159,7 +159,7 @@ Blockchain | Ethereum Sepolia (web3.py)
 <img src="https://img.shields.io/badge/LinkedIn-andytillo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/tillo13?tab=repositories">
-<img src="https://img.shields.io/badge/Repos-100+-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Repos-125+-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 </a>
 <a href="https://pilgri.ms">
 <img src="https://img.shields.io/badge/pilgri.ms-play-d73a49?style=for-the-badge&logo=rocket&logoColor=white" />

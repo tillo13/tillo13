@@ -44,8 +44,6 @@ I build AI-powered apps, games, and tools — mostly in Python, mostly deployed 
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tillo13&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1a6dd4" width="100%"/>
-
 ---
 
 ### featured projects

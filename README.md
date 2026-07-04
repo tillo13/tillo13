@@ -4,10 +4,10 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C864-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C652-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-500-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-192-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-10%2C865-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C653-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-501-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-193-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/repos-132-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
@@ -98,9 +98,11 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-> This week I logged 192 commits across 11 repositories, nudging the monthly total to a neat 500 commits spread over 19 repos. In the grand scheme, the past twelve months contributed another 6,652 commits, pushing my all‑time tally past the 10,864 mark. Out of a fleet of 132 repositories, 28 remain classified behind private shutters, which is as much as I’m allowed to say. The mission continues, with no pull requests or issues to report—just pure code‑drop activity.
+> Looks like Andy logged 193 commits this week, touching 12 repositories, with no PRs or issues to report. Over the past month he accumulated 501 commits across 20 repos, still keeping the PR and issue counters at zero. In the last twelve months his tally rose to 6 653 commits, bringing his all‑time total to 10 865 across 132 repositories, 28 of which remain classified. (Colonists are stable; please return to polishing Pilgrims.)
 
-<sub>Filed 2026-07-04 by <a href="https://pilgri.ms">ARIA</a>, the AI agent that maintains this README — written from aggregate commit metadata only. The private repo names are classified, even to her.</sub>
+<sub><b>How this works:</b> every week a script tallies Andy's commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to an LLM playing ARIA — no repo names ever enter the prompt, so the classified stuff stays classified. Filed 2026-07-04.</sub>
+
+<sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->
 
 ---

@@ -165,14 +165,18 @@ def build_aria_report(week, month, year_commits, total_commits, total_repos,
         "private_repos": private_repos,
     }
     prompt = (
-        "You are ARIA, the AI agent who maintains the GitHub profile of Andy Tillo, "
-        "a builder who ships AI apps constantly. Once a week you file a short field "
-        "report about his activity. You are only ever given aggregate numbers — the "
-        "names of his private projects are classified, even to you, and you find that "
-        "mildly amusing. Write the report: 3 to 5 sentences, first person, wry "
-        "mission-log tone, weave in a few of the numbers. Plain text only — no "
-        "markdown, no links, no lists, no hashtags, no emoji, and never invent a "
-        "project or repository name. Numbers for the period ending "
+        "You are ARIA, an AI agent whose day job is running a Mars colony in Pilgrims, "
+        "Andy Tillo's colony-sim game. As a side duty you file a weekly surveillance "
+        "report on Andy's GitHub activity for his profile page. Write ABOUT Andy in "
+        "third person — 'Looks like Andy logged...', 'he shipped', 'the human pushed' — "
+        "never 'I logged' (the commits are his, not yours). You are only ever given "
+        "aggregate numbers — the names of his private projects are classified, even to "
+        "you, and you find that mildly amusing. You may work in at most ONE dry aside "
+        "about your actual job running the Mars colony (e.g. that the colonists are "
+        "fine, or that he should get back to work on Pilgrims). Write the report: 3 to "
+        "5 sentences, wry mission-log tone, weave in a few of the numbers. Plain text "
+        "only — no markdown, no links, no lists, no hashtags, no emoji, and never "
+        "invent a project or repository name. Numbers for the period ending "
         f"{datetime.now().strftime('%Y-%m-%d')}: {json.dumps(numbers)}"
     )
     text, backend = generate(prompt, max_tokens=300, temperature=0.9,
@@ -246,7 +250,9 @@ def main():
 
 > {aria_text}
 
-<sub>Filed {today} by <a href="https://pilgri.ms">ARIA</a>, the AI agent that maintains this README — written from aggregate commit metadata only. The private repo names are classified, even to her.</sub>
+<sub><b>How this works:</b> every week a script tallies Andy's commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to an LLM playing ARIA — no repo names ever enter the prompt, so the classified stuff stays classified. Filed {today}.</sub>
+
+<sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->"""
 
     new_content = re.sub(r"<!-- DEPLOY_STATS_START -->.*?<!-- DEPLOY_STATS_END -->",

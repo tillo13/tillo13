@@ -12,6 +12,9 @@ Update deploy stats + ARIA's weekly field report in the GitHub profile README.
 
 Run: ~/Desktop/code/kumori/venv_kumori/bin/python update_stats.py [--no-email] [--no-llm]
 Rewrites the sections between DEPLOY_STATS_START/END and ARIA_REPORT_START/END.
+
+Cloud twin: kumori/utilities/aria_profile_report.py runs this same pipeline from
+App Engine cron every Sunday — keep the README templates in sync when editing.
 """
 
 import argparse
@@ -25,6 +28,13 @@ from pathlib import Path
 KUMORI_ROOT = Path.home() / "Desktop" / "code" / "kumori"
 EMAIL_TO = "andy.tillo@gmail.com"
 ARIA_MAX_CHARS = 900
+# Colony founding = first commit of the pilgrims repo (2026-04-10 19:46:53 -0700).
+SOL_EPOCH = datetime(2026, 4, 11, 2, 46, 53, tzinfo=timezone.utc)
+SOL_SECONDS = 88775  # one Martian sol = 24h 39m 35s
+
+
+def current_sol():
+    return int((datetime.now(timezone.utc) - SOL_EPOCH).total_seconds() // SOL_SECONDS)
 
 
 def gh_graphql(query):
@@ -248,9 +258,11 @@ def main():
     aria_block = f"""<!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
+**`SOL {current_sol()}`** · **`EARTH DATE {today}`** · colony uplink nominal
+
 > {aria_text}
 
-<sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0. Filed {today}.</sub>
+<sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 
 <sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->"""

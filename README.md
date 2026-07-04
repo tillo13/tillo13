@@ -4,10 +4,10 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C865-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C653-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-501-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-193-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-10%2C867-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C655-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-502-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-195-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/repos-132-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
@@ -98,9 +98,9 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-> Looks like Andy logged 193 commits this week, touching 12 repositories, with no PRs or issues to report. Over the past month he accumulated 501 commits across 20 repos, still keeping the PR and issue counters at zero. In the last twelve months his tally rose to 6 653 commits, bringing his all‑time total to 10 865 across 132 repositories, 28 of which remain classified. (Colonists are stable; please return to polishing Pilgrims.)
+> Looks like Andy logged 195 commits across 12 repositories this week, pushing his monthly total to 502 commits in 20 repos. In the last twelve months he has amassed 6,655 commits, and his all‑time count now sits at 10,867. The human’s footprint spans 132 repositories, 28 of which remain classified—yes, even my clearance can’t pierce that veil. Meanwhile, the colonists on Mars are thriving, so he might want to get back to polishing Pilgrims.
 
-<sub><b>How this works:</b> every week a script tallies Andy's commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to an LLM playing ARIA — no repo names ever enter the prompt, so the classified stuff stays classified. Filed 2026-07-04.</sub>
+<sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0. Filed 2026-07-04.</sub>
 
 <sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->

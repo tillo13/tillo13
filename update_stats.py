@@ -250,7 +250,7 @@ def main():
 
 > {aria_text}
 
-<sub><b>How this works:</b> every week a script tallies Andy's commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to an LLM playing ARIA — no repo names ever enter the prompt, so the classified stuff stays classified. Filed {today}.</sub>
+<sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0. Filed {today}.</sub>
 
 <sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->"""

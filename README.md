@@ -28,21 +28,21 @@ python + flask + js + postgresql + gcp app engine
 **Games & Social**
 | | |
 |:--|:--|
-| [Pilgrims](https://pilgri.ms) | Mars colony game with ARIA, a Claude-powered AI agent. Blockchain on Ethereum Sepolia. [source](https://github.com/tillo13/pilgri.ms_public) |
+| [Pilgrims](https://pilgri.ms) | A Mars colony strategy game that respects your time — build, explore, research at your own pace. No streaks, no penalties; your colony runs even when you're away. Powered by ARIA. [source](https://github.com/tillo13/pilgri.ms_public) |
 | [Kindness Social](https://github.com/tillo13/kindness_social) | 20 autonomous AI personas simulating social media. 55% toxicity reduction over 69 simulated hours. |
 | [MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle) | 26-day agentic AI system chasing a real $1M prize. Scrapers, vision, Slack bot, autonomous evidence gathering. |
 
 **Tools & Products**
 | | |
 |:--|:--|
-| [Kumori](https://kumori.ai) | Personal AI assistant you actually own. Your API keys, Claude-powered, deployed to GCP. Infrastructure layer for most of my apps. |
-| [Crab Travel](https://crab.travel) | AI-powered travel planning. Claude builds itineraries, scores destinations, handles the entire pipeline. |
-| [Dandy Ventures](https://dandy.ventures) | Collaborative chat where multiple users talk with Claude together in real-time. |
-| [Briskr](https://bris.kr) | Privacy-first URL shortener. No tracking, no ads. |
-| [Refinr](https://sortedfor.me) | Reddit aggregator that surfaces signal from noise. AI ranks and clusters discussions. |
-| [Inroads](https://inroads.me) | Network-first job search. Scrapes 597+ career pages, matches against your LinkedIn connections. |
-| [Trustable](https://trustable.cc) | Professional trust layer. QA backbone for testing across my projects. |
-| [Meish](https://meish.cc) | AI writing style cloning. Feed it samples, it learns your voice. |
+| [Kumori](https://kumori.ai) | A **free** AI you talk to like a person — chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath; you never pick a model. No subscription. Also the free-LLM router that writes ARIA's report below. |
+| [Crab Travel](https://crab.travel) | Group trips without the spreadsheet. Pick destinations, CrabAI finds the activities, share one link — everyone votes, drops their airport, marks blackout dates. Not a booking site; it watches prices and tells you when to book. |
+| [Dandy Ventures](https://dandy.ventures) | A free technical co-founder for founders who can't code — submit your idea, get an MVP built in 8–12 weeks. $0 upfront, equity partnership. |
+| [Briskr](https://bris.kr) | Instant URL shortener — free and fast, no tracking, no ads. |
+| [Refinr](https://sortedfor.me) | An AI-ranked Reddit feed across 190+ subreddits — tech-priority boosting, diversity caps, clean mobile-first reading that cuts the noise. |
+| [Inroads](https://inroads.me) | Find jobs through trusted referrals — surfaces openings through your professional network instead of cold applications. |
+| [Trustable](https://trustable.cc) | Free LinkedIn network analysis — surfaces your all-star colleagues, builds your professional reputation, finds referral paths. |
+| [Meish](https://meish.cc) | An AI content generator that writes in *your* voice — upload samples, pick a topic, get a publication-ready draft sourced from real news in ~60s. |
 
 **AI Pipelines & Infrastructure**
 | | |
@@ -50,8 +50,8 @@ python + flask + js + postgresql + gcp app engine
 | [ROG Video Pipeline](https://github.com/tillo13/ai-video-pipeline) | Claude writes scripts, generates images, sings, edits, uploads — zero human intervention. |
 | ROG Gateway | 65+ API endpoints: LLMs, TTS, music gen, Whisper, image/video models. Local RTX 5060 Ti. `private` |
 | [Scatterbrain](https://github.com/tillo13/scatterbrain) | 3D visualization of your scattered brain. Projects, emails, tasks as floating orbs. `private` |
-| [Wattson](https://wattson.ac) | B2B SaaS gym equipment monitoring via Shelly smart plugs. |
-| [Digital Empire TV](https://digitalempiretv.com) | YouTube gaming network dashboard. AI-driven content analysis. |
+| [Wattson](https://wattson.ac) | Equipment intelligence for gym operators — real-time usage tracking that cuts maintenance costs, any brand in one dashboard. |
+| [Digital Empire TV](https://digitalempiretv.com) | Premium YouTube gaming network — 3.5M+ subscribers, 500M+ views across 7 family-friendly Roblox channels. |
 | [Pet Adoption AI](https://github.com/tillo13/pet-adoption-ai) | Custom LoRA models on shelter pet photos, generates stylized adoption artwork. |
 
 ---
@@ -106,6 +106,11 @@ python + flask + js + postgresql + gcp app engine
 
 <sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
 <!-- ARIA_REPORT_END -->
+
+---
+
+<!-- FLEET_START -->
+<!-- FLEET_END -->
 
 ---
 

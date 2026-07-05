@@ -15,7 +15,7 @@
 
 ---
 
-I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work. 125 repos (103 public, 22 private). 
+I build AI-powered apps, games, and tools — mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work. 132 repos (104 public, 28 private). 
 
 ```
 python + flask + js + postgresql + gcp app engine
@@ -62,32 +62,32 @@ python + flask + js + postgresql + gcp app engine
 <tr>
 <td width="50%">
 
+[![cc-usage](https://img.shields.io/badge/🔥_new-cc--usage-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/cc-usage)
+<br/>Claude Code quota tracker — menu-bar widget + token forensics + a "will you survive the week" pacing CLI
+
+[![kindness_social](https://img.shields.io/badge/🔥_new-kindness__social-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/kindness_social)
+<br/>20 LLM personas, a dopamine reward loop — 55% toxicity reduction observed
+
+[![pilgri.ms_public](https://img.shields.io/badge/🚀_live-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms_public)
+<br/>Mars colony game — Flask + Ethereum Sepolia + ARIA (yes, the agent writing this README ↑)
+
 [![ai_storyboard_video_generator](https://img.shields.io/badge/⭐_11-ai__storyboard__video__generator-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/ai_storyboard_video_generator)
 <br/>End-to-end story → visuals → voiceover → video
+
+</td>
+<td width="50%">
+
+[![artifactory](https://img.shields.io/badge/🔥_new-artifactory-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/artifactory)
+<br/>One backend, many AI-designed frontends — a house-build demo
+
+[![crab_travel](https://img.shields.io/badge/🚀_live-crab.travel-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/crab_travel)
+<br/>Group trips without the chaos — AI hunts every route and tells you exactly when to book
 
 [![kumori_cli_engine](https://img.shields.io/badge/⭐_8-kumori__cli__engine-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/kumori_cli_engine)
 <br/>Identity-preserving stylized portraits via InstantID
 
 [![studio_ghibli_faceswap](https://img.shields.io/badge/⭐_3-studio__ghibli__faceswap-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/studio_ghibli_faceswap)
 <br/>Turn anyone into a Studio Ghibli character
-
-[![ai_video_creator](https://img.shields.io/badge/⭐_2-ai__video__creator-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/ai_video_creator)
-<br/>Flux + CivitAI + RunwayML + Suno in one pipeline
-
-</td>
-<td width="50%">
-
-[![ollama_storyline_creator](https://img.shields.io/badge/⭐_2-ollama__storyline__creator-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/ollama_storyline_creator)
-<br/>AI-driven narrative generation with chapter coherence
-
-[![auto_ai_chooser](https://img.shields.io/badge/-auto__ai__chooser-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/auto_ai_chooser)
-<br/>Meta-router that picks the best AI model per query
-
-[![adventure-dnd](https://img.shields.io/badge/-adventure--dnd-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/adventure-dnd)
-<br/>1982 Intellivision D&D recreation, built from memory
-
-[![mr_beast_puzzle](https://img.shields.io/badge/-mr__beast__puzzle-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/mr_beast_puzzle)
-<br/>AI-assisted $1M MrBeast x Salesforce puzzle solver
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Blockchain | Ethereum Sepolia (web3.py)
 <img src="https://img.shields.io/badge/LinkedIn-andytillo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/tillo13?tab=repositories">
-<img src="https://img.shields.io/badge/Repos-125+-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Repos-132-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 </a>
 <a href="https://pilgri.ms">
 <img src="https://img.shields.io/badge/pilgri.ms-play-d73a49?style=for-the-badge&logo=rocket&logoColor=white" />

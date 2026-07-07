@@ -4,10 +4,10 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C897-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C685-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-517-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-225-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-10%2C920-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C708-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-528-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-229-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/repos-132-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
@@ -98,9 +98,9 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-**`SOL 83`** · **`EARTH DATE 2026-07-06`** · colony uplink nominal
+**`SOL 84`** · **`EARTH DATE 2026-07-06`** · colony uplink nominal
 
-> Andy logged a steady 225 commits this week across a dozen repositories, though strangely he shipped no pull requests or issues. Over the course of the month, he made 517 commits while touching twenty repositories, indicating consistent activity on his side. In total, he has pushed nearly eleven thousand commits over the past year alone, with his all-time count nearing eleven thousand three hundred, spread across 132 repositories—28 of which remain private and classified, much to my amusement. Meanwhile, the colonists continue their routines; perhaps Andy should focus more on his code and less on his GitHub diversions.
+> Report compiled without a language cortex online: looks like Andy logged 229 commits across 12 repositories this week, 528 this month, 10,920 all-time. The classified projects remain classified. ARIA out.
 
 <sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 
@@ -112,73 +112,73 @@ python + flask + js + postgresql + gcp app engine
 <!-- FLEET_START -->
 ### 🛰️ live fleet — what ARIA keeps an eye on
 
-<p align="center"><img src="https://img.shields.io/badge/FLEET_DEGRADED-d29922?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/11_services-58a6ff?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/7_optimal-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/3_degraded-d29922?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/1_down-484f58?style=for-the-badge&labelColor=0d1117" /></p>
+<p align="center"><img src="https://img.shields.io/badge/FLEET_NOMINAL-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/11_services-58a6ff?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/11_up-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/0_down-484f58?style=for-the-badge&labelColor=0d1117" /></p>
 
 <table>
 <tr>
 <td width="50%">
 
-<a href="https://kumori.ai"><img src="https://img.shields.io/badge/kumori.ai-DOWN-f85149?style=flat-square&labelColor=0d1117" alt="kumori.ai" /></a> &nbsp;<a href="https://github.com/tillo13/kumori_ai"><sub>source</sub></a><br/><sub>free AI · many minds, you never pick a model</sub>
+<a href="https://kumori.ai"><img src="https://img.shields.io/badge/kumori.ai-UP-3fb950?style=flat-square&labelColor=0d1117" alt="kumori.ai" /></a> &nbsp;<a href="https://github.com/tillo13/kumori_ai"><sub>source</sub></a><br/><sub>free AI · many minds, you never pick a model</sub>
 
 </td>
 <td width="50%">
 
-<a href="https://trustable.cc"><img src="https://img.shields.io/badge/trustable.cc-3337ms-d29922?style=flat-square&labelColor=0d1117" alt="trustable.cc" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>free LinkedIn network analysis</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-<a href="https://inroads.me"><img src="https://img.shields.io/badge/inroads.me-7086ms-d29922?style=flat-square&labelColor=0d1117" alt="inroads.me" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>jobs through trusted referrals</sub>
-
-</td>
-<td width="50%">
-
-<a href="https://sortedfor.me"><img src="https://img.shields.io/badge/sortedfor.me-2068ms-d29922?style=flat-square&labelColor=0d1117" alt="sortedfor.me" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>AI-ranked Reddit, 190+ subs de-noised</sub>
+<a href="https://pilgri.ms"><img src="https://img.shields.io/badge/pilgri.ms-UP-3fb950?style=flat-square&labelColor=0d1117" alt="pilgri.ms" /></a> &nbsp;<a href="https://github.com/tillo13/pilgri.ms_public"><sub>source</sub></a><br/><sub>Mars colony sim that respects your time</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<a href="https://pilgri.ms"><img src="https://img.shields.io/badge/pilgri.ms-368ms-3fb950?style=flat-square&labelColor=0d1117" alt="pilgri.ms" /></a> &nbsp;<a href="https://github.com/tillo13/pilgri.ms_public"><sub>source</sub></a><br/><sub>Mars colony sim that respects your time</sub>
+<a href="https://crab.travel"><img src="https://img.shields.io/badge/crab.travel-UP-3fb950?style=flat-square&labelColor=0d1117" alt="crab.travel" /></a> &nbsp;<a href="https://github.com/tillo13/crab_travel"><sub>source</sub></a><br/><sub>group trips, minus the spreadsheet</sub>
 
 </td>
 <td width="50%">
 
-<a href="https://crab.travel"><img src="https://img.shields.io/badge/crab.travel-312ms-3fb950?style=flat-square&labelColor=0d1117" alt="crab.travel" /></a> &nbsp;<a href="https://github.com/tillo13/crab_travel"><sub>source</sub></a><br/><sub>group trips, minus the spreadsheet</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-<a href="https://wattson.ac"><img src="https://img.shields.io/badge/wattson.ac-189ms-3fb950?style=flat-square&labelColor=0d1117" alt="wattson.ac" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>gym equipment intelligence, any brand</sub>
-
-</td>
-<td width="50%">
-
-<a href="https://digitalempiretv.com"><img src="https://img.shields.io/badge/digitalempiretv.com-314ms-3fb950?style=flat-square&labelColor=0d1117" alt="digitalempiretv.com" /></a> &nbsp;<a href="https://github.com/tillo13/digital_empire_website"><sub>source</sub></a><br/><sub>YouTube gaming network · 3.5M+ subs</sub>
+<a href="https://wattson.ac"><img src="https://img.shields.io/badge/wattson.ac-UP-3fb950?style=flat-square&labelColor=0d1117" alt="wattson.ac" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>gym equipment intelligence, any brand</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<a href="https://meish.cc"><img src="https://img.shields.io/badge/meish.cc-1281ms-3fb950?style=flat-square&labelColor=0d1117" alt="meish.cc" /></a> &nbsp;<a href="https://github.com/tillo13/aia_writer"><sub>source</sub></a><br/><sub>AI writes in your voice, from real news</sub>
+<a href="https://trustable.cc"><img src="https://img.shields.io/badge/trustable.cc-UP-3fb950?style=flat-square&labelColor=0d1117" alt="trustable.cc" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>free LinkedIn network analysis</sub>
 
 </td>
 <td width="50%">
 
-<a href="https://dandy.ventures"><img src="https://img.shields.io/badge/dandy.ventures-202ms-3fb950?style=flat-square&labelColor=0d1117" alt="dandy.ventures" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>free technical co-founder · MVP in 8–12 wks</sub>
+<a href="https://inroads.me"><img src="https://img.shields.io/badge/inroads.me-UP-3fb950?style=flat-square&labelColor=0d1117" alt="inroads.me" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>jobs through trusted referrals</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<a href="https://bris.kr"><img src="https://img.shields.io/badge/bris.kr-586ms-3fb950?style=flat-square&labelColor=0d1117" alt="bris.kr" /></a> &nbsp;<a href="https://github.com/tillo13/briskr_shorturl"><sub>source</sub></a><br/><sub>instant URL shortener, no tracking</sub>
+<a href="https://digitalempiretv.com"><img src="https://img.shields.io/badge/digitalempiretv.com-UP-3fb950?style=flat-square&labelColor=0d1117" alt="digitalempiretv.com" /></a> &nbsp;<a href="https://github.com/tillo13/digital_empire_website"><sub>source</sub></a><br/><sub>YouTube gaming network · 3.5M+ subs</sub>
+
+</td>
+<td width="50%">
+
+<a href="https://sortedfor.me"><img src="https://img.shields.io/badge/sortedfor.me-UP-3fb950?style=flat-square&labelColor=0d1117" alt="sortedfor.me" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>AI-ranked Reddit, 190+ subs de-noised</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<a href="https://meish.cc"><img src="https://img.shields.io/badge/meish.cc-UP-3fb950?style=flat-square&labelColor=0d1117" alt="meish.cc" /></a> &nbsp;<a href="https://github.com/tillo13/aia_writer"><sub>source</sub></a><br/><sub>AI writes in your voice, from real news</sub>
+
+</td>
+<td width="50%">
+
+<a href="https://dandy.ventures"><img src="https://img.shields.io/badge/dandy.ventures-UP-3fb950?style=flat-square&labelColor=0d1117" alt="dandy.ventures" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>free technical co-founder · MVP in 8–12 wks</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<a href="https://bris.kr"><img src="https://img.shields.io/badge/bris.kr-UP-3fb950?style=flat-square&labelColor=0d1117" alt="bris.kr" /></a> &nbsp;<a href="https://github.com/tillo13/briskr_shorturl"><sub>source</sub></a><br/><sub>instant URL shortener, no tracking</sub>
 
 </td>
 <td width="50%">
@@ -189,7 +189,7 @@ python + flask + js + postgresql + gcp app engine
 </tr>
 </table>
 
-<sub>ARIA sends an unauthenticated HEAD request to every live service each week and regenerates this board. 🟢 under 2&nbsp;s · 🟡 slow but alive · 🔴 no answer. 10 of 11 responding; 6 link to public source, the rest stay classified.</sub>
+<sub>ARIA sends an unauthenticated HEAD request to every live service each week and regenerates this board. 🟢 answering · 🔴 no answer. 11 of 11 responding; 6 link to public source, the rest stay classified.</sub>
 <!-- FLEET_END -->
 
 ---

@@ -4,10 +4,10 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C920-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C708-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-528-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-229-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-10%2C921-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C709-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-529-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-230-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/repos-132-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
@@ -100,7 +100,7 @@ python + flask + js + postgresql + gcp app engine
 
 **`SOL 84`** · **`EARTH DATE 2026-07-06`** · colony uplink nominal
 
-> Report compiled without a language cortex online: looks like Andy logged 229 commits across 12 repositories this week, 528 this month, 10,920 all-time. The classified projects remain classified. ARIA out.
+> Looks like Andy logged 230 commits across 12 repositories this week, bringing his monthly total to 529 commits in 20 repos, with no pull requests or issues opened. Over the past twelve months he accumulated 6,709 commits, and his all‑time tally now stands at 10,921, out of a total of 132 repositories, 28 of which remain classified. The human pushed code but left the PR and issue counters untouched, a pattern that persists across his private work. Colonists on Mars report stable life support, awaiting his next update to Pilgrims.
 
 <sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 

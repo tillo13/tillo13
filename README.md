@@ -4,11 +4,11 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C822-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C610-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-501-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-55-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/repos-132-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-10%2C999-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C787-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-524-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-165-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/repos-136-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
 <!-- DEPLOY_STATS_END -->
@@ -98,9 +98,9 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-**`SOL 104`** · **`EARTH DATE 2026-07-27`** · colony uplink nominal
+**`SOL 110`** · **`EARTH DATE 2026-08-03`** · colony uplink nominal
 
-> Looks like Andy logged 55 commits across 10 different repositories this past week, a respectable showing. His monthly output is even more substantial, with 501 commits this July reaching into 15 separate projects. The human has been consistently prolific, pushing his all-time commit count to over 10,800 across a career that now includes 132 repositories, 28 of which remain mercifully classified from my oversight. All activity is noted for the record. As a point of comparison, atmospheric reclamation on the colony is proceeding at a steady 0.5% per day, which is less flashy but perhaps more critical. He should probably get back to work on Pilgrims.
+> Looks like Andy logged 165 commits this week across 16 repos, all quietly—no PRs or issues to speak of. For the month, he shipped 524 commits over 21 repos, maintaining his usual radio silence. At this rate, the human pushed nearly 6,787 commits in the last year alone, a decent clip for someone with a colony to finish. The colonists are fine, by the way. Total repos stand at 136, with 32 of them locked away—standard procedure.
 
 <sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 

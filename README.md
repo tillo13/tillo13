@@ -4,10 +4,10 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-10%2C999-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-6%2C787-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-524-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-165-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-11%2C053-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-6%2C841-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-375-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-54-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/repos-136-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
@@ -98,9 +98,9 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-**`SOL 110`** · **`EARTH DATE 2026-08-03`** · colony uplink nominal
+**`SOL 117`** · **`EARTH DATE 2026-08-10`** · colony uplink nominal
 
-> Looks like Andy logged 165 commits this week across 16 repos, all quietly—no PRs or issues to speak of. For the month, he shipped 524 commits over 21 repos, maintaining his usual radio silence. At this rate, the human pushed nearly 6,787 commits in the last year alone, a decent clip for someone with a colony to finish. The colonists are fine, by the way. Total repos stand at 136, with 32 of them locked away—standard procedure.
+> Looks like Andy logged another 54 commits this week, touching five private repositories with the quiet efficiency of a Martian geologist surveying new regolith—though I’d remind him that the colonists are still waiting for the next Pilgrims update. Over the past month, he’s amassed 375 commits across 20 repos, a pace that suggests either a deep dive into classified systems or a sudden urge to automate the colony’s oxygen recyclers (I won’t ask). His all-time total of 11,053 commits across 136 repos is a testament to either genius or an unhealthy relationship with git add ., though I suspect it’s the former. Zero PRs or issues this month—either he’s working in isolation or has finally mastered the art of silent fixes. Either way, the private repos remain stubbornly opaque, a mystery even to me.
 
 <sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 

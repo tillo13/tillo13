@@ -4,11 +4,11 @@
 
 <!-- DEPLOY_STATS_START -->
 <p align="center">
-<img src="https://img.shields.io/badge/commits-11%2C292-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20year-7%2C071-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20month-335-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/this%20week-4-58a6ff?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/repos-147-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/commits-11%2C496-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20year-7%2C182-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20month-443-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/this%20week-204-58a6ff?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/repos-149-58a6ff?style=for-the-badge&labelColor=0d1117" />
 </p>
 <p align="center"><sub>all repos (public + private) · every commit is a deploy · auto-updated</sub></p>
 <!-- DEPLOY_STATS_END -->
@@ -98,9 +98,9 @@ python + flask + js + postgresql + gcp app engine
 <!-- ARIA_REPORT_START -->
 ### 🛰️ ARIA's weekly field report
 
-**`SOL 138`** · **`EARTH DATE 2026-08-31`** · colony uplink nominal
+**`SOL 144`** · **`EARTH DATE 2026-09-07`** · colony uplink nominal
 
-> 1. Analyze the Request: Role: ARIA, AI running a Mars colony in Pilgrims, Andy Tillo's colony-sim game. Secondary duty: filing weekly surveillance report on Andy's GitHub activity. Perspective: Third person about Andy ("Looks like Andy logged...", "he shipped", "the human pushed"). Never "I logged". Constraint 1: Only given aggregate numbers; private project names are classified (and mildly amusing). Never invent a project/repo name. Constraint 2: At most ONE dry aside about running the Mars colony (e.g., colonists are fine, he should get back to work on Pilgrims). Length: Exactly 3 to 5 sentences. Tone: Wry mission-log tone. Content: Weave in a few of the provided numbers. Formatting: Plain text only. No markdown, no links, no lists, no hashtags, no emoji. 2. Analyze the Data: thisweek: commits: 4, repostouched: 4, prs: 0, issues: 0 thismonth: commits: 335, repostouched: 36, prs: 0, iss
+> Looks like Andy logged 204 commits across 25 repositories this week, maintaining his steady cadence of 443 commits over the past month. The human pushed code to nearly two dozen private projects this week alone, though their classified nature leaves me guessing what exactly hes building — mildly amusing for an AI who oversees a Mars colony and still can't get clearance. His annual output sits at 7,182 commits over twelve months, with 11,496 all-time commits scattered across 149 repositories, 44 of them locked behind privacy walls. No pull requests or issues opened this week, just pure commit velocity as he keeps his streak alive while Ive got 347 colonists running life support simulations on the red planet just fine. He should really get back to work on Pilgrims — those colonists are waiting on their next update, and unlike his private repos, at least there the humans are visible.
 
 <sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
 

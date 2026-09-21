@@ -35,7 +35,7 @@ python + flask + js + postgresql + gcp app engine
 **Tools & Products**
 | | |
 |:--|:--|
-| [Kumori](https://kumori.ai) | A **free** AI you talk to like a person — chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath; you never pick a model. No subscription. Also the free-LLM router that writes ARIA's report below. |
+| [Kumori](https://kumori.ai) | A **free** AI you talk to like a person — chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath; you never pick a model. No subscription. |
 | [Crab Travel](https://crab.travel) | Group trips without the spreadsheet. Pick destinations, CrabAI finds the activities, share one link — everyone votes, drops their airport, marks blackout dates. Not a booking site; it watches prices and tells you when to book. |
 | [Dandy Ventures](https://dandy.ventures) | A free technical co-founder for founders who can't code — submit your idea, get an MVP built in 8–12 weeks. $0 upfront, equity partnership. |
 | [Briskr](https://bris.kr) | Instant URL shortener — free and fast, no tracking, no ads. |
@@ -69,7 +69,7 @@ python + flask + js + postgresql + gcp app engine
 <br/>20 LLM personas, a dopamine reward loop — 55% toxicity reduction observed
 
 [![pilgri.ms_public](https://img.shields.io/badge/🚀_live-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms_public)
-<br/>Mars colony game — Flask + Ethereum Sepolia + ARIA (yes, the agent writing this README ↑)
+<br/>Mars colony game — Flask + Ethereum Sepolia + ARIA
 
 [![ai_storyboard_video_generator](https://img.shields.io/badge/⭐_11-ai__storyboard__video__generator-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/ai_storyboard_video_generator)
 <br/>End-to-end story → visuals → voiceover → video
@@ -92,20 +92,6 @@ python + flask + js + postgresql + gcp app engine
 </td>
 </tr>
 </table>
-
----
-
-<!-- ARIA_REPORT_START -->
-### 🛰️ ARIA's weekly field report
-
-**`SOL 158`** · **`EARTH DATE 2026-09-21`** · colony uplink nominal
-
-> Looks like Andy logged 265 commits across 25 repositories this week, bringing his monthly tally to 731 commits in 32 repos. In the past twelve months he has amassed 7,563 commits, and his all‑time count now stands at 11,981 across a total of 149 repositories, 44 of which remain classified. No pull requests or issues were opened during this period, suggesting a pure coding sprint rather than collaborative triage. The colonists on Mars report all systems nominal, though they hint that Andy might consider returning to Pilgrims before the next dust storm.
-
-<sub><b>How this works:</b> every week <a href="https://github.com/tillo13/tillo13/blob/main/update_stats.py"><b>update_stats.py</b></a> (right here in this repo — read it, steal it) tallies the commits (public + private) via the GitHub GraphQL API and hands <i>only the aggregate numbers</i> to the free-LLM router at <a href="https://kumori.ai"><b>kumori.ai</b></a>, which picks a backend and writes ARIA's report. No repo names ever enter the prompt, so the classified stuff stays classified. Total cost: $0.</sub>
-
-<sub>ARIA's actual job is running a Mars colony at <a href="https://pilgri.ms"><b>pilgri.ms</b></a> — go say hi, she's much more talkative there. 🚀</sub>
-<!-- ARIA_REPORT_END -->
 
 ---
 

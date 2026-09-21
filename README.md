@@ -15,7 +15,7 @@
 
 ---
 
-Most of what I build now is **[Kumori](https://kumori.ai)**: one shared AI platform that routes every request across free model allowances, counts every cap, and keeps working when a provider falls over. The apps below run on it. The rest of this page is everything else I got curious about.
+I build AI-powered apps, games, and tools. Mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work.
 
 ```
 python + flask + js + postgresql + gcp app engine
@@ -23,57 +23,39 @@ python + flask + js + postgresql + gcp app engine
 
 ---
 
-### Kumori
+### things I'm digging recently
 
-<table>
-<tr>
-<td width="62%">
-
-**The company** is [kumori.ai](https://kumori.ai): technology consulting, staffing and practical AI, with people first. **The platform** underneath is a routed model catalog with failover, image generation, moderation and per-key daily caps. **The public side** lives at [github.com/kumori-ai](https://github.com/kumori-ai), and GitHub is the interface: propose a problem, report a bug in a statement, or pick up a piece of something unsolved.
-
-</td>
-<td width="38%" align="center">
-
-<a href="https://kumori.ai"><img src="https://img.shields.io/badge/kumori.ai-the_company-58a6ff?style=for-the-badge&labelColor=0d1117" /></a><br/>
-<a href="https://github.com/kumori-ai"><img src="https://img.shields.io/badge/kumori--ai-on_GitHub-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" /></a><br/>
-<a href="https://sparebrains.kumori.ai"><img src="https://img.shields.io/badge/sparebrAIns-live_numbers-3fb950?style=for-the-badge&labelColor=0d1117" /></a>
-
-</td>
-</tr>
-</table>
-
-**Built on Kumori**
+**Kumori**
 | | |
 |:--|:--|
-| [sparebrAIns](https://sparebrains.kumori.ai) | Every free AI allowance resets at midnight, used or not. This points that idle capacity at math: a pool of free models writes Lean 4 proofs, the Lean kernel is the only judge, and every attempt stays on the public record, accepted or rejected. 253 of 378 problems proved as of Sep 2026, with $0 spent on models. It lives at [kumori-ai/sparebrains](https://github.com/kumori-ai/sparebrains), where you or your own agent can pick up a piece of a problem the models could not finish alone. [how it works](https://sparebrains.kumori.ai/how) |
-| [Kumori Chat](https://kumori.ai/chat) | A **free** AI you talk to like a person: chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath, and you never pick a model. No subscription. |
+| [Kumori](https://kumori.ai) | A **free** AI you talk to like a person: chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath, and you never pick a model. No subscription. The public side lives at [github.com/kumori-ai](https://github.com/kumori-ai). |
+| [sparebrAIns](https://sparebrains.kumori.ai) | Every free AI allowance resets at midnight, used or not. This points that idle capacity at math: free models write Lean 4 proofs, the Lean kernel is the only judge, and every attempt stays on the public record. 253 of 378 problems proved as of Sep 2026, with $0 spent on models. You or your own agent can pick up a piece at [kumori-ai/sparebrains](https://github.com/kumori-ai/sparebrains). |
 | [Sync](https://kumori.ai/sync/) | Turns working preferences into a clear profile, and better conversations about communication, feedback and collaboration. |
-| [Inroads](https://inroads.me) | Find jobs through trusted referrals. Surfaces openings through your professional network instead of cold applications. |
-| [Kindness Social](https://kindness.social) | AI agents in a social experiment that rewards kindness and gives toxic comments no attention. 20 personas, 55% toxicity reduction over 69 simulated hours. [source](https://github.com/tillo13/kindness_social) |
+
+**Games & Social**
+| | |
+|:--|:--|
 | [Pilgrims](https://pilgri.ms) | A Mars colony strategy game that respects your time. Build, explore and research at your own pace, with no streaks and no penalties; your colony runs even when you're away. Powered by ARIA. [source](https://github.com/tillo13/pilgri.ms_public) |
 | [Pilgrims World](https://pilgrims.world) | Evolving worlds where AI-led communities turn events into stories that change across generations. |
-| [Code](https://kumori.ai/products) | Point your coding agent at Kumori's model catalog, with a view of available capacity before you start. |
-
----
-
-### other things I'm digging
+| [Kindness Social](https://kindness.social) | 20 autonomous AI personas simulating social media. 55% toxicity reduction over 69 simulated hours. [source](https://github.com/tillo13/kindness_social) |
+| [MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle) | 26-day agentic AI system chasing a real $1M prize. Scrapers, vision, Slack bot, autonomous evidence gathering. |
 
 **Tools & Products**
 | | |
 |:--|:--|
 | [Crab Travel](https://crab.travel) | Group trips without the spreadsheet. Pick destinations, CrabAI finds the activities, share one link, and everyone votes, drops their airport, marks blackout dates. It watches prices and tells you when to book. |
+| [Inroads](https://inroads.me) | Find jobs through trusted referrals. Surfaces openings through your professional network instead of cold applications. |
 | [Trustable](https://trustable.cc) | Free LinkedIn network analysis: surfaces your all-star colleagues, builds your professional reputation, finds referral paths. |
 | [Briskr](https://bris.kr) | Instant URL shortener. Free and fast, no tracking, no ads. |
 | [Wattson](https://wattson.ac) | Equipment intelligence for gym operators: real-time usage tracking that cuts maintenance costs, any brand in one dashboard. |
-| [Digital Empire TV](https://digitalempiretv.com) | Premium YouTube gaming network. 3.5M+ subscribers, 500M+ views across 7 family-friendly Roblox channels. |
 
-**AI Pipelines & Experiments**
+**AI Pipelines & Infrastructure**
 | | |
 |:--|:--|
 | [ROG Video Pipeline](https://github.com/tillo13/ai-video-pipeline) | Claude writes scripts, generates images, sings, edits, uploads. Zero human intervention. |
 | ROG Gateway | 65+ API endpoints: LLMs, TTS, music gen, Whisper, image/video models. Local RTX 5060 Ti. `private` |
-| [MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle) | 26-day agentic AI system chasing a real $1M prize. Scrapers, vision, Slack bot, autonomous evidence gathering. |
 | Scatterbrain | 3D visualization of your scattered brain. Projects, emails, tasks as floating orbs. `private` |
+| [Digital Empire TV](https://digitalempiretv.com) | Premium YouTube gaming network. 3.5M+ subscribers, 500M+ views across 7 family-friendly Roblox channels. |
 | [Pet Adoption AI](https://github.com/tillo13/pet-adoption-ai) | Custom LoRA models on shelter pet photos, generates stylized adoption artwork. |
 
 ---
@@ -195,11 +177,11 @@ Blockchain | Ethereum Sepolia (web3.py)
 <a href="https://www.linkedin.com/in/andytillo/">
 <img src="https://img.shields.io/badge/LinkedIn-andytillo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+<a href="https://github.com/tillo13?tab=repositories">
+<img src="https://img.shields.io/badge/Repos-browse-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+</a>
 <a href="https://kumori.ai">
 <img src="https://img.shields.io/badge/kumori.ai-visit-58a6ff?style=for-the-badge&labelColor=0d1117" />
-</a>
-<a href="https://github.com/kumori-ai">
-<img src="https://img.shields.io/badge/kumori--ai-GitHub-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 </a>
 <a href="https://pilgri.ms">
 <img src="https://img.shields.io/badge/pilgri.ms-play-d73a49?style=for-the-badge&logo=rocket&logoColor=white" />

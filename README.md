@@ -37,16 +37,14 @@ python + flask + js + postgresql + gcp app engine
 |:--|:--|
 | [Kumori](https://kumori.ai) | A **free** AI you talk to like a person — chat, generate and edit images, read pictures, transcribe audio, plus live rooms anyone joins by link. Many minds underneath; you never pick a model. No subscription. |
 | [Crab Travel](https://crab.travel) | Group trips without the spreadsheet. Pick destinations, CrabAI finds the activities, share one link — everyone votes, drops their airport, marks blackout dates. Not a booking site; it watches prices and tells you when to book. |
-| [Dandy Ventures](https://dandy.ventures) | A free technical co-founder for founders who can't code — submit your idea, get an MVP built in 8–12 weeks. $0 upfront, equity partnership. |
 | [Briskr](https://bris.kr) | Instant URL shortener — free and fast, no tracking, no ads. |
-| [Refinr](https://sortedfor.me) | An AI-ranked Reddit feed across 190+ subreddits — tech-priority boosting, diversity caps, clean mobile-first reading that cuts the noise. |
 | [Inroads](https://inroads.me) | Find jobs through trusted referrals — surfaces openings through your professional network instead of cold applications. |
 | [Trustable](https://trustable.cc) | Free LinkedIn network analysis — surfaces your all-star colleagues, builds your professional reputation, finds referral paths. |
-| [Meish](https://meish.cc) | An AI content generator that writes in *your* voice — upload samples, pick a topic, get a publication-ready draft sourced from real news in ~60s. |
 
 **AI Pipelines & Infrastructure**
 | | |
 |:--|:--|
+| [sparebrAIns](https://sparebrains.kumori.ai) | Every free AI allowance resets at midnight, used or not. This points that idle capacity at math: a pool of free models writes Lean 4 proofs, the Lean kernel is the only judge, and every attempt stays on the public record, accepted or rejected. 253 of 378 problems proved as of Sep 2026, with $0 spent on models. It lives at [kumori-ai/sparebrains](https://github.com/kumori-ai/sparebrains), where you or your own agent can pick up a piece of a problem the models could not finish alone. [how it works](https://sparebrains.kumori.ai/how) |
 | [ROG Video Pipeline](https://github.com/tillo13/ai-video-pipeline) | Claude writes scripts, generates images, sings, edits, uploads — zero human intervention. |
 | ROG Gateway | 65+ API endpoints: LLMs, TTS, music gen, Whisper, image/video models. Local RTX 5060 Ti. `private` |
 | [Scatterbrain](https://github.com/tillo13/scatterbrain) | 3D visualization of your scattered brain. Projects, emails, tasks as floating orbs. `private` |
@@ -98,13 +96,13 @@ python + flask + js + postgresql + gcp app engine
 <!-- FLEET_START -->
 ### 🛰️ live fleet — what ARIA keeps an eye on
 
-<p align="center"><img src="https://img.shields.io/badge/FLEET_NOMINAL-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/11_services-58a6ff?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/11_up-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/0_down-484f58?style=for-the-badge&labelColor=0d1117" /></p>
+<p align="center"><img src="https://img.shields.io/badge/FLEET_NOMINAL-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/8_services-58a6ff?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/8_up-3fb950?style=for-the-badge&labelColor=0d1117" /><img src="https://img.shields.io/badge/0_down-484f58?style=for-the-badge&labelColor=0d1117" /></p>
 
 <table>
 <tr>
 <td width="50%">
 
-<a href="https://kumori.ai"><img src="https://img.shields.io/badge/kumori.ai-UP-3fb950?style=flat-square&labelColor=0d1117" alt="kumori.ai" /></a> &nbsp;<a href="https://github.com/tillo13/kumori_ai"><sub>source</sub></a><br/><sub>free AI · many minds, you never pick a model</sub>
+<a href="https://kumori.ai"><img src="https://img.shields.io/badge/kumori.ai-UP-3fb950?style=flat-square&labelColor=0d1117" alt="kumori.ai" /></a> &nbsp;<a href="https://github.com/kumori-ai"><sub>on GitHub</sub></a><br/><sub>free AI · many minds, you never pick a model</sub>
 
 </td>
 <td width="50%">
@@ -145,37 +143,13 @@ python + flask + js + postgresql + gcp app engine
 </td>
 <td width="50%">
 
-<a href="https://sortedfor.me"><img src="https://img.shields.io/badge/sortedfor.me-UP-3fb950?style=flat-square&labelColor=0d1117" alt="sortedfor.me" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>AI-ranked Reddit, 190+ subs de-noised</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-<a href="https://meish.cc"><img src="https://img.shields.io/badge/meish.cc-UP-3fb950?style=flat-square&labelColor=0d1117" alt="meish.cc" /></a> &nbsp;<a href="https://github.com/tillo13/aia_writer"><sub>source</sub></a><br/><sub>AI writes in your voice, from real news</sub>
-
-</td>
-<td width="50%">
-
-<a href="https://dandy.ventures"><img src="https://img.shields.io/badge/dandy.ventures-UP-3fb950?style=flat-square&labelColor=0d1117" alt="dandy.ventures" /></a> &nbsp;<sub>🔒 classified</sub><br/><sub>free technical co-founder · MVP in 8–12 wks</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 <a href="https://bris.kr"><img src="https://img.shields.io/badge/bris.kr-UP-3fb950?style=flat-square&labelColor=0d1117" alt="bris.kr" /></a> &nbsp;<a href="https://github.com/tillo13/briskr_shorturl"><sub>source</sub></a><br/><sub>instant URL shortener, no tracking</sub>
-
-</td>
-<td width="50%">
-
-
 
 </td>
 </tr>
 </table>
 
-<sub>ARIA sends an unauthenticated HEAD request to every live service each week and regenerates this board. 🟢 answering · 🔴 no answer. 11 of 11 responding; 6 link to public source, the rest stay classified.</sub>
+<sub>ARIA sends an unauthenticated HEAD request to every live service each week and regenerates this board. 🟢 answering · 🔴 no answer. 8 of 8 responding; 5 link to public source, the rest stay classified.</sub>
 <!-- FLEET_END -->
 
 ---

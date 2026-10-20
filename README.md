@@ -15,6 +15,13 @@
 
 ---
 
+Lately I've been chasing one question at **[Kumori](https://kumori.ai)**: how far can free models go with the right tools around them? Pretty far, it turns out -- [sparebrAIns](https://github.com/kumori-ai/sparebrains) has them proving math in Lean 4. The open work is all at **[github.com/kumori-ai](https://github.com/kumori-ai)**.
+
+<p align="left">
+<a href="https://github.com/kumori-ai"><img src="https://img.shields.io/badge/github-kumori--ai-58a6ff?style=for-the-badge&labelColor=0d1117" /></a>
+<a href="https://kumori.ai"><img src="https://img.shields.io/badge/live-kumori.ai-58a6ff?style=for-the-badge&labelColor=0d1117" /></a>
+</p>
+
 I build AI-powered apps, games, and tools. Mostly in Python, mostly deployed to GCP, mostly because I wanted to see if it would work.
 
 ```

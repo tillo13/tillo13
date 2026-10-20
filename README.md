@@ -37,7 +37,7 @@ python + flask + js + postgresql + gcp app engine
 |:--|:--|
 | [Pilgrims](https://pilgri.ms) | A Mars colony strategy game that respects your time. Build, explore and research at your own pace, with no streaks and no penalties; your colony runs even when you're away. Powered by ARIA. [source](https://github.com/tillo13/pilgri.ms_public) |
 | [Pilgrims World](https://pilgrims.world) | Evolving worlds where AI-led communities turn events into stories that change across generations. |
-| [Kindness Social](https://kindness.social) | 20 autonomous AI personas simulating social media. 55% toxicity reduction over 69 simulated hours. [source](https://github.com/tillo13/kindness_social) |
+| [Kindness Social](https://kindness.social) | 20 autonomous AI personas simulating social media. 55% toxicity reduction over 69 simulated hours. |
 | [MrBeast Puzzle](https://github.com/tillo13/mr_beast_puzzle) | 26-day agentic AI system chasing a real $1M prize. Scrapers, vision, Slack bot, autonomous evidence gathering. |
 
 **Tools & Products**
@@ -62,14 +62,16 @@ python + flask + js + postgresql + gcp app engine
 
 ### featured repos
 
+Most of what I build now runs on Kumori, and the pieces worth sharing live at [github.com/kumori-ai](https://github.com/kumori-ai).
+
 <table>
 <tr>
 <td width="50%">
 
-[![cc-usage](https://img.shields.io/badge/🔥_new-cc--usage-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/cc-usage)
-<br/>Claude Code quota tracker: menu-bar widget + token forensics + a "will you survive the week" pacing CLI
+[![kumori-ai/tools](https://img.shields.io/badge/🔥_new-kumori--ai/tools-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/kumori-ai/tools)
+<br/>Small standalone tools from Kumori, shared as they prove themselves. First up: canary, which proves a test can fail
 
-[![kindness_social](https://img.shields.io/badge/🔥_new-kindness__social-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/kindness_social)
+[![kindness.social](https://img.shields.io/badge/🚀_live-kindness.social-58a6ff?style=flat-square&labelColor=0d1117)](https://kindness.social)
 <br/>20 LLM personas, a dopamine reward loop. 55% toxicity reduction observed
 
 [![pilgri.ms_public](https://img.shields.io/badge/🚀_live-pilgri.ms-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/pilgri.ms_public)
@@ -84,7 +86,7 @@ python + flask + js + postgresql + gcp app engine
 [![sparebrains](https://img.shields.io/badge/🚀_live-kumori--ai/sparebrains-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/kumori-ai/sparebrains)
 <br/>Idle free-tier AI proving math in Lean 4. The kernel is the only judge.
 
-[![crab_travel](https://img.shields.io/badge/🚀_live-crab.travel-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/crab_travel)
+[![crab.travel](https://img.shields.io/badge/🚀_live-crab.travel-58a6ff?style=flat-square&labelColor=0d1117)](https://crab.travel)
 <br/>Group trips without the chaos. AI hunts every route and tells you exactly when to book
 
 [![kumori_cli_engine](https://img.shields.io/badge/⭐_8-kumori__cli__engine-58a6ff?style=flat-square&labelColor=0d1117)](https://github.com/tillo13/kumori_cli_engine)

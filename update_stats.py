@@ -164,7 +164,7 @@ def build_aria_report(week, month, year_commits, total_commits, total_repos,
     from shared.kumori_free_llm import init, generate
     from utilities.postgres_utils import get_secret
     init(app_name="tillo13_github_profile",
-         get_secret_fn=lambda name: get_secret(name, "kumori-404602"))
+         get_secret_fn=get_secret)
 
     numbers = {
         "this_week": week,
